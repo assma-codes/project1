@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+* {
+    margin: 100;
+    box-sizing: border-box;
+}
+html {
+    background-color: gray;
+}
+/* here is the body style*/
+body {
+  background-color: #922B21; 
+  border-style: inset;
+  border-width: 5px;
+  margin: 0 auto;
+  width: 1200px;
+  height: 1650px;
+  
+}
+/* here is the header style*/
+header {
+	
+	border: 2px solid black;
+    background: url(cov.jpg);
+    background-size: 1000 500;
+	height: 200px;
+    padding: 5px;
+    width: 100%;
+	
+}
+/* here is the moving text style (marquee) style*/
+marquee {
+	
+  width: 100%;
+  height: 40px;
+  direction: right;
+  border-radius: 10px;
+  padding: 5px;
+  background-color:black;
+  color:white;
+	
+}
+
+/* here is the navigation bar style*/
+nav {
+	margin: 0 auto;
+	padding: 10px;
+    text-align: center;  
+    height: 40px;
+    border-radius: 10px;
+    background-color:gray;
+    color:white;
+}
+/* here is the links inside navigation bar  style*/
+a{
+	 margin: 0 auto;
+     text-align: center;  
+     border-radius: 10px;
+     background-color:gray;
+     color:white;	
+}
+
+.label {
+	
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#doses-no {
+	
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+input[type=text]
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+	
+}	
+	/*.radio , .check{	
+ accent-color: red;	
+	}*/
+
+
+aside {
+  width: 10%;
+  height: 400px;
+  padding-left: 15px;
+  float: right;
+  margin-top: 200px;
+  margin-right: 10px;
+  font-style: italic;
+  background-color: lightgray;
+  border-radius: 10px;
+  color:  #922B21;
+
+}
+
+.nav-links {
+	
+  width: 10%;
+  height: 20px;
+  padding: 5px;
+  background-color: gray;
+ 
+}
+
+a:link {
+  color: #933B21;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.em , #em {
+	color: gray;
+}
+
+.input-field {
+	
+  margin-right: 100px;
+ /* width: 30%;*/
+  height: 40px;
+ 
+}
+
+
+
+h3, h4 {
+    color: salmon;
+  font-family: cursive;
+  margin-left: 5px;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.sect {
+	
+    width: 70%;
+    margin-left: 200px;
+    border-style: solid;
+    background-color: #F8F8F8;
+    margin-top: 1px;
+    border-radius: 10px;
+    border-color: #E8E8E8;
+	
+  
+}
+
+.my-footer {
+		
+
+     width: 95%;
+	 height: 100px;
+     margin-left: 10px;
+	 margin-right: 10px;
+     margin-top: 1px;
+     text-align: center;
+     
+}
+
+.but{
+	color: salmon;
+	 width:800px;
+	 height:40px;
+	margin-left: 20px;
+	 border-radius: 10px;
+	 border-color: salmon;
+}
+.area-comment{
+	 width:200px;
+	 height:100px;
+	 border-color: salmon;
+	 border-radius: 10px;
+}
+
+
+
+
